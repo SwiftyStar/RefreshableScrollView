@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		A5EC91DC279CC20F00872002 /* RefreshableScrollViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC91DB279CC20F00872002 /* RefreshableScrollViewApp.swift */; };
-		A5EC91DE279CC20F00872002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC91DD279CC20F00872002 /* ContentView.swift */; };
+		A5EC91DE279CC20F00872002 /* ExampleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC91DD279CC20F00872002 /* ExampleScreen.swift */; };
 		A5EC91E0279CC21100872002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EC91DF279CC21100872002 /* Assets.xcassets */; };
 		A5EC91E3279CC21100872002 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EC91E2279CC21100872002 /* Preview Assets.xcassets */; };
+		A5EC91EB279CC3D300872002 /* RefreshableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC91EA279CC3D300872002 /* RefreshableScrollView.swift */; };
+		A5EC91ED279CC3FB00872002 /* RefreshableScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC91EC279CC3FB00872002 /* RefreshableScrollViewModel.swift */; };
+		A5EC91EF279CC54500872002 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC91EE279CC54500872002 /* ActivityIndicator.swift */; };
+		A5EC91F1279CC57500872002 /* FramePreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC91F0279CC57500872002 /* FramePreferenceKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5EC91D8279CC20F00872002 /* RefreshableScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshableScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EC91DB279CC20F00872002 /* RefreshableScrollViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableScrollViewApp.swift; sourceTree = "<group>"; };
-		A5EC91DD279CC20F00872002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5EC91DD279CC20F00872002 /* ExampleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleScreen.swift; sourceTree = "<group>"; };
 		A5EC91DF279CC21100872002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5EC91E2279CC21100872002 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5EC91EA279CC3D300872002 /* RefreshableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableScrollView.swift; sourceTree = "<group>"; };
+		A5EC91EC279CC3FB00872002 /* RefreshableScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableScrollViewModel.swift; sourceTree = "<group>"; };
+		A5EC91EE279CC54500872002 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		A5EC91F0279CC57500872002 /* FramePreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramePreferenceKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				A5EC91DB279CC20F00872002 /* RefreshableScrollViewApp.swift */,
-				A5EC91DD279CC20F00872002 /* ContentView.swift */,
+				A5EC91DD279CC20F00872002 /* ExampleScreen.swift */,
+				A5EC91EA279CC3D300872002 /* RefreshableScrollView.swift */,
+				A5EC91EC279CC3FB00872002 /* RefreshableScrollViewModel.swift */,
+				A5EC91EE279CC54500872002 /* ActivityIndicator.swift */,
+				A5EC91F0279CC57500872002 /* FramePreferenceKey.swift */,
 				A5EC91DF279CC21100872002 /* Assets.xcassets */,
 				A5EC91E1279CC21100872002 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5EC91DE279CC20F00872002 /* ContentView.swift in Sources */,
+				A5EC91DE279CC20F00872002 /* ExampleScreen.swift in Sources */,
+				A5EC91EF279CC54500872002 /* ActivityIndicator.swift in Sources */,
+				A5EC91F1279CC57500872002 /* FramePreferenceKey.swift in Sources */,
 				A5EC91DC279CC20F00872002 /* RefreshableScrollViewApp.swift in Sources */,
+				A5EC91ED279CC3FB00872002 /* RefreshableScrollViewModel.swift in Sources */,
+				A5EC91EB279CC3D300872002 /* RefreshableScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

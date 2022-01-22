@@ -8,7 +8,7 @@ import SwiftUI
 struct RefreshableScrollViewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ExampleScreen()
         }
     }
 }
